@@ -316,11 +316,11 @@ width: 100%;
     fill: var(--icon-color);
 }
 
-.customer-link:hover {
+.customer-link:hover, .customer-link:focus {
     border: 1px solid var(--button-aktive-color);
 }
 
-.customer-link:hover .customer-icon {
+.customer-link:hover .customer-icon, .customer-link:focus .customer-icon {
     fill: var(--button-aktive-color);
 }
 
